@@ -1,0 +1,73 @@
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(128, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Uncial Antiqua", cursive;
+  font-size: 24px;
+  color: #f88605; 
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Uncial Antiqua", cursive;
+  font-size: 16px;
+  color: #ff7f50; 
+  margin-bottom: 20px;
+}
+
+.feature h2 {
+  font-family: "Uncial Antiqua", cursive;
+  font-size: 18px;
+  color: #ffa07a; 
+}
+
+.button {
+  background-color: #800000;
+  border: none;
+  color: #ffffff;
+  padding: 12px 24px; 
+  font-size: 16px;
+  border-radius: 10px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #5c0000;
+}
+
+.button:active {
+  background-color: #400000;
+}
+
+.fun-button {
+  background-color: #800000;
+  border: none;
+  color: #ffffff;
+  padding: 12px 24px; 
+  font-size: 16px;
+  border-radius: 10px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fun-button:hover {
+  background-color: #5c0000;
+}
+
+.fun-button:active {
+  background-color: #400000;
+}

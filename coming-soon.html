@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Why are you looking up here</title>
+   <script>
+    document.addEventListener('keydown', function(event) {
+      
+      console.log('Key pressed:', event.key);
+      
+      if (event.key === 'Enter') {
+        window.location.href = 'next-page.html';
+      }
+    });
+   </script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>URGENT!</h1>
+    <p>Additional Information is Required</p>
+    <p>Press Enter To Authenticate Yourself</p> 
+</body>
+</html>
